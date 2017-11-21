@@ -5,3 +5,6 @@ for i in 1..100
 		print "Fizz\n"
 	elsif i%5==0
 		print "Buzz\n"
+	else
+		print (i, "\n")
+end
